@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin_Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('poadmin', function(){
-    return view('produk_listing');
-    });
+Route::get('/', [Admin_Controller::class, 'index']);
 
-    Route::get('1', function(){
-    return view('Detail_1');
-    });
+    Route::get('/{slug}', [Admin_Controller::class, 'detail']);

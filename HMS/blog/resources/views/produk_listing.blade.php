@@ -495,7 +495,7 @@
                                             
                                             <li class="sidebar-menu-item active">
                                                 <a class="sidebar-menu-button"
-                                                   href="poadmin">
+                                                   href="/">
                                                     <span class="sidebar-menu-text">PO ADMIN</span>
                                                 </a>
                                             </li>

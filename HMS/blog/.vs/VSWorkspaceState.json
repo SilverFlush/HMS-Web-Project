@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\public",
+    "\\public\\assets",
+    "\\public\\assets\\css",
     "\\resources",
     "\\resources\\views",
     "\\routes"
   ],
-  "SelectedNode": "\\resources\\views\\modaldetail.blade.php",
+  "SelectedNode": "\\app\\Http\\Controllers",
   "PreviewInSolutionExplorer": false
 }
