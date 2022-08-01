@@ -489,7 +489,7 @@
                                             
                                             <li class="sidebar-menu-item active">
                                                 <a class="sidebar-menu-button"
-                                                   href="list">
+                                                   href="poadmin">
                                                     <span class="sidebar-menu-text">PO ADMIN</span>
                                                 </a>
                                             </li>

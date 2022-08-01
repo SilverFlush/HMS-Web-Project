@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('list', function(){
+Route::get('poadmin', function(){
     return view('produk_listing');
     });
 

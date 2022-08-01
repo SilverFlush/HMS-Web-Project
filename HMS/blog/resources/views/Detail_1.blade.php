@@ -424,10 +424,10 @@
                                         </div></th>
                                                 <th style="width: 100px; text-align: right;">
                                                     <div class="dropdown pull-right">
-                                                        <th > <button type="button"
+                                                        <th >  <button type="button"
                                                     class="btn btn-info btn-rounded"
                                                     data-toggle="modal"
-                                                    data-target="modal-modaldetail">Detail</button></th>
+                                                    data-target="#modal-large">Detail</button></th>
                                                         
                                                     </div>
                                                 </th>
@@ -490,7 +490,7 @@
                                             
                                             <li class="sidebar-menu-item active">
                                                 <a class="sidebar-menu-button"
-                                                   href="list">
+                                                   href="poadmin">
                                                     <span class="sidebar-menu-text">PO ADMIN</span>
                                                 </a>
                                             </li>
@@ -606,6 +606,141 @@
 
         <!-- App Settings (safe to remove) -->
         <script src="assets/js/app-settings.js"></script>
+
+        <!-- modal -->
+          <div id="modal-large"
+             class="modal fade"
+             tabindex="-1"
+             role="dialog"
+             aria-labelledby="modal-large-title"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg"
+                 role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"
+                            id="modal-large-title">Detail</h5>
+                        <button type="button"
+                                class="close"
+                                data-dismiss="modal"
+                                aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div> <!-- // END .modal-header -->
+                    <div class="container">
+  <div class="wrapper">
+    <ul class="sessions">
+      <li>
+        <div class="time">20-09-2020</div>
+        <p>pipa 25 pcs</p>
+      </li>
+
+       <li>
+        <div class="time">25-09-2020</div>
+        <p>pipa 50 pcs</p>
+      </li>
+
+       <li>
+        <div class="time">30-09-2020</div>
+        <p>pipa 90 pcs</p>
+      </li>
+
+    </ul>
+  </div>
+</div>  <!-- // END .modal-body -->
+                    <div class="modal-footer">
+                        <button type="button"
+                                class="btn btn-light btn-rounded"
+                                data-dismiss="modal">Close</button>
+                        <button type="button"
+                                class="btn btn-primary btn-rounded">Save changes</button>
+                    </div> <!-- // END .modal-footer -->
+                </div> <!-- // END .modal-content -->
+            </div> <!-- // END .modal-dialog -->
+        </div> <!-- // END .modal -->
+
+        <!-- timeline CSS -->
+        
+        @mixin tablet-and-up {
+            @media screen and (min-width: 769px) { @content; }
+        }
+        @mixin mobile-and-up {
+            @media screen and (min-width: 601px) { @content; }
+        }
+        @mixin tablet-and-down  {
+            @media screen and (max-width: 768px) { @content; }
+        }
+        @mixin mobile-only {
+            @media screen and (max-width: 600px) { @content; }
+        }
+
+
+        ul, li{
+          list-style: none;
+          padding: 0;
+        }
+
+        .container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0 1rem;
+          background: linear-gradient(45deg, #209cff, #68e0cf);
+          padding: 3rem 0;
+        }
+        .wrapper{
+          background: #eaf6ff;
+          padding: 2rem;
+          border-radius: 15px;
+        }
+        h1{
+          font-size: 1.1rem;
+          font-family: sans-serif;
+        }
+        .sessions{
+          margin-top: 2rem;
+          border-radius: 12px;
+          position: relative;
+        }
+        li{
+          padding-bottom: 1.5rem;
+          border-left: 1px solid #abaaed;
+          position: relative;
+          padding-left: 20px;
+          margin-left: 10px;
+          &:last-child{
+            border: 0px;
+            padding-bottom: 0;
+          }
+          &:before{
+            content: '';
+            width: 15px;
+            height: 15px;
+            background: white;
+            border: 1px solid #4e5ed3;
+            box-shadow: 3px 3px 0px #bab5f8;
+            box-shadow: 3px 3px 0px #bab5f8;
+            border-radius: 50%;
+            position: absolute;
+            left: -10px;
+            top: 0px;
+          }
+        }
+        .time{
+          color: #2a2839;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 500;
+         
+
+        }
+        p{
+          color: #4f4f4f;
+              font-family: sans-serif;
+          line-height: 1.5;
+          margin-top:0.4rem;
+         
+        }
+ <!-- timeline end -->
 
     </body>
 
