@@ -392,7 +392,7 @@
                                                         <th >Action</th>
                                                         
                                                     </div>
-                    s                            </th>
+                                                </th>
                                             </tr>
 
                                              <tr>
