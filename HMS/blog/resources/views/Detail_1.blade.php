@@ -425,7 +425,7 @@
                                                 <th style="width: 100px; text-align: right;">
                                                     <div class="dropdown pull-right">
                                                         <th > <button type="button"
-                                                    class="btn btn-info"
+                                                    class="btn btn-info btn-rounded"
                                                     data-toggle="modal"
                                                     data-target="modal-modaldetail">Detail</button></th>
                                                         

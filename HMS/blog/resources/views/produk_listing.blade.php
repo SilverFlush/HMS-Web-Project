@@ -425,8 +425,8 @@
                                         </div></th>
                                                 <th style="width: 100px; text-align: right;">
                                                     <div class="dropdown pull-right">
-                                                        <th > <a class="btn btn-success" href="#">Print</a>
-                                                              <a class="btn btn-primary" href="1">Detail</a></th>
+                                                        <th > <a class="btn btn-success btn-rounded" href="#">Print</a>
+                                                              <a class="btn btn-primary btn-rounded" href="1">Detail</a></th>
                                                         
                                                     </div>
                                                 </th>
