@@ -27,6 +27,12 @@
               href="assets/css/app.rtl.css"
               rel="stylesheet">
 
+              <!-- Timeline CSS -->
+
+        <link type="text/css"
+              href="assets/css/timeline.css"
+              rel="stylesheet">
+
         <!-- Material Design Icons -->
         <link type="text/css"
               href="assets/css/vendor-material-icons.css"

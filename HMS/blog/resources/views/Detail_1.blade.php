@@ -27,6 +27,12 @@
               href="assets/css/app.rtl.css"
               rel="stylesheet">
 
+        <!-- Timeline CSS -->
+
+        <link type="text/css"
+              href="assets/css/timeline.css"
+              rel="stylesheet">
+
         <!-- Material Design Icons -->
         <link type="text/css"
               href="assets/css/vendor-material-icons.css"
@@ -500,20 +506,7 @@
 
                                    
 
-                                    <div class="sidebar-p-a sidebar-b-y">
-                                        <div class="d-flex align-items-top mb-2">
-                                            <div class="sidebar-heading m-0 p-0 flex text-body js-text-body">Progress</div>
-                                            <div class="font-weight-bold text-success">60%</div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-success"
-                                                 role="progressbar"
-                                                 style="width: 60%"
-                                                 aria-valuenow="60"
-                                                 aria-valuemin="0"
-                                                 aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
 
                                 <div class="d-flex align-items-center sidebar-p-a border-bottom sidebar-account">
@@ -628,26 +621,26 @@
                         </button>
                     </div> <!-- // END .modal-header -->
                     <div class="container">
-  <div class="wrapper">
-    <ul class="sessions">
-      <li>
-        <div class="time">20-09-2020</div>
-        <p>pipa 25 pcs</p>
-      </li>
+                      <div class="wrapper">
+                        <ul class="sessions">
+                          <li>
+                            <div class="time">20-09-2020</div>
+                            <p>pipa 25 pcs</p>
+                          </li>
 
-       <li>
-        <div class="time">25-09-2020</div>
-        <p>pipa 50 pcs</p>
-      </li>
+                           <li>
+                            <div class="time">25-09-2020</div>
+                            <p>pipa 50 pcs</p>
+                          </li>
 
-       <li>
-        <div class="time">30-09-2020</div>
-        <p>pipa 90 pcs</p>
-      </li>
+                           <li>
+                            <div class="time">30-09-2020</div>
+                            <p>pipa 90 pcs</p>
+                          </li>
 
-    </ul>
-  </div>
-</div>  <!-- // END .modal-body -->
+                        </ul>
+                      </div>
+                    </div>  <!-- // END .modal-body -->
                     <div class="modal-footer">
                         <button type="button"
                                 class="btn btn-light btn-rounded"
@@ -659,88 +652,6 @@
             </div> <!-- // END .modal-dialog -->
         </div> <!-- // END .modal -->
 
-        <!-- timeline CSS -->
-        
-        @mixin tablet-and-up {
-            @media screen and (min-width: 769px) { @content; }
-        }
-        @mixin mobile-and-up {
-            @media screen and (min-width: 601px) { @content; }
-        }
-        @mixin tablet-and-down  {
-            @media screen and (max-width: 768px) { @content; }
-        }
-        @mixin mobile-only {
-            @media screen and (max-width: 600px) { @content; }
-        }
-
-
-        ul, li{
-          list-style: none;
-          padding: 0;
-        }
-
-        .container{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 0 1rem;
-          background: linear-gradient(45deg, #209cff, #68e0cf);
-          padding: 3rem 0;
-        }
-        .wrapper{
-          background: #eaf6ff;
-          padding: 2rem;
-          border-radius: 15px;
-        }
-        h1{
-          font-size: 1.1rem;
-          font-family: sans-serif;
-        }
-        .sessions{
-          margin-top: 2rem;
-          border-radius: 12px;
-          position: relative;
-        }
-        li{
-          padding-bottom: 1.5rem;
-          border-left: 1px solid #abaaed;
-          position: relative;
-          padding-left: 20px;
-          margin-left: 10px;
-          &:last-child{
-            border: 0px;
-            padding-bottom: 0;
-          }
-          &:before{
-            content: '';
-            width: 15px;
-            height: 15px;
-            background: white;
-            border: 1px solid #4e5ed3;
-            box-shadow: 3px 3px 0px #bab5f8;
-            box-shadow: 3px 3px 0px #bab5f8;
-            border-radius: 50%;
-            position: absolute;
-            left: -10px;
-            top: 0px;
-          }
-        }
-        .time{
-          color: #2a2839;
-          font-family: 'Poppins', sans-serif;
-          font-weight: 500;
-         
-
-        }
-        p{
-          color: #4f4f4f;
-              font-family: sans-serif;
-          line-height: 1.5;
-          margin-top:0.4rem;
-         
-        }
- <!-- timeline end -->
 
     </body>
 
