@@ -5,6 +5,6 @@
     "\\resources\\views",
     "\\routes"
   ],
-  "SelectedNode": "\\resources\\views\\dashboard.blade.php",
+  "SelectedNode": "\\routes\\web.php",
   "PreviewInSolutionExplorer": false
 }
