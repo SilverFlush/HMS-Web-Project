@@ -376,18 +376,7 @@
                                     <table class="table mb-0 thead-border-top-0 table-striped">
                                         <thead>
                                             <tr>
-                                                <th style="width: 18px;">
-                                                    <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox"
-                                                               class="custom-control-input js-toggle-check-all"
-                                                               data-target="#products"
-                                                               id="customCheckAll">
-                                                        <label class="custom-control-label"
-                                                               for="customCheckAll"><span class="text-hide">Toggle all</span></label>
-                                                    </div>
-                                                </th>
-
-                                                <th style="width: 30px;"
+                                            <th style="width: 30px;"
                                                     class="text-center">No</th>
                                                 <th>Item ID</th>
                                                 <th class="text-center">Item Name</th>
@@ -401,17 +390,6 @@
                                             </tr>
 
                                              <tr>
-                                                <th style="width: 18px;">
-                                                    <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox"
-                                                               class="custom-control-input js-toggle-check-all"
-                                                               data-target="#products"
-                                                               id="customCheckAll">
-                                                        <label class="custom-control-label"
-                                                               for="customCheckAll"><span class="text-hide">Toggle all</span></label>
-                                                    </div>
-                                                </th>
-
                                                 <th style="width: 30px;"
                                                     class="text-center">1</th>
                                                 <th>P101</th>
