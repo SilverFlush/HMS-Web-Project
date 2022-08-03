@@ -411,7 +411,7 @@
                                                         <th >  <button type="button"
                                                     class="btn btn-info btn-rounded"
                                                     data-toggle="modal"
-                                                    data-target="#modal-large">Detail</button></th>
+                                                    data-target="#modal-large">Detail Pengiriman</button></th>
                                                         
                                                     </div>
                                                 </th>
@@ -603,17 +603,17 @@
                         <ul class="sessions">
                           <li>
                             <div class="time">20-09-2020</div>
-                            <p>pipa 25 pcs</p>
+                            <p>P101 pipa 25 pcs</p>
                           </li>
 
                            <li>
                             <div class="time">25-09-2020</div>
-                            <p>pipa 50 pcs</p>
+                            <p>P101 pipa 50 pcs</p>
                           </li>
 
                            <li>
                             <div class="time">30-09-2020</div>
-                            <p>pipa 90 pcs</p>
+                            <p>P101 pipa 90 pcs</p>
                           </li>
 
                         </ul>
@@ -623,8 +623,6 @@
                         <button type="button"
                                 class="btn btn-light btn-rounded"
                                 data-dismiss="modal">Close</button>
-                        <button type="button"
-                                class="btn btn-primary btn-rounded">Save changes</button>
                     </div> <!-- // END .modal-footer -->
                 </div> <!-- // END .modal-content -->
             </div> <!-- // END .modal-dialog -->

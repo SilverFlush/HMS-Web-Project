@@ -377,8 +377,8 @@
                                         <thead>
                                             <tr>
                                                 <th style="width: 30px;"
-                                                    class="text-center">ID Barang</th>
-                                                <th>Item</th>
+                                                    class="text-center">No</th>
+                                                <th>PO ID</th>
                                                 <th class="text-center">Receive Date </th>
                                                 <th class="">Creation Date</th>
                                                 <th class="text-right">Status</th>
@@ -392,8 +392,8 @@
 
                                              <tr>
                                                 <th style="width: 30px;"
-                                                    class="text-center">ID101</th>
-                                                <th>Back Rest</th>
+                                                    class="text-center">1</th>
+                                                <th>ID101</th>
                                                 <th class="text-center">15-10-2022 </th>
                                                 <th class="">15-09-2021</th>
                                                 <th class="text-right"> <div class="d-flex align-items-top mb-2">
